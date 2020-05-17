@@ -44,6 +44,53 @@
 </header>
   <div id="content" class="inner">
     <div id="main-col" class="alignleft"><div id="wrapper">
+  <article id="post-sdksetup" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time class="dt-published" datetime="2020-05-17T13:36:31.000Z"><a href="/2020/05/17/sdksetup/">2020-05-17</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2020/05/17/sdksetup/">sdksetup</a></h1>
+  
+
+    </header>
+    <div class="e-content entry" itemprop="articleBody">
+      
+        <h3 id="Android-license-status-unknown"><a href="#Android-license-status-unknown" class="headerlink" title="Android license status unknown"></a>Android license status unknown</h3><ul>
+<li>Command line tools only 다운로드 </li>
+<li>C:\Users\유저명\AppData\Local\Android\Sdk 에 압축해제</li>
+<li>환경변수에 ANDROID_HOME 추가</li>
+<li><ul>
+<li>변수이름 : ANDROID_HOME</li>
+</ul>
+</li>
+<li><ul>
+<li>변수 값 : C:\Users\Kwon\AppData\Local\Android\Sdk</li>
+</ul>
+</li>
+<li>sdkmanager.bat 파일을 열고 아래 내용 수정(빨간색 추가된 부분)<br>“%JAVA_EXE%” %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SDKMANAGER_OPTS% -classpath “%CLASSPATH%” com.android.sdklib.tool.sdkmanager.SdkManagerCli %CMD_LINE_ARGS% <font color = red>–sdk_root=%ANDROID_HOME%<br>- sdkmanager.bat –update  </font><br>[=======================================] 100% Computing updates…  </li>
+</ul>
+<p>출처: <a href="https://eastluck.tistory.com/121" target="_blank" rel="noopener">https://eastluck.tistory.com/121</a> [이스트럭 블로그]</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
   <article id="post-onclicklistener" class="h-entry post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   
   <div class="post-content">
@@ -403,7 +450,7 @@
   
     <li><a href="/categories/korea/">korea</a><small>1</small></li>
   
-    <li><a href="/categories/programming/">programming</a><small>3</small></li>
+    <li><a href="/categories/programming/">programming</a><small>4</small></li>
   
   </ul>
 </div>
@@ -414,11 +461,15 @@
   <h3 class="title">Tags</h3>
   <ul class="entry">
   
+    <li><a href="/tags/android/">android</a><small>1</small></li>
+  
     <li><a href="/tags/candy/">candy</a><small>2</small></li>
   
     <li><a href="/tags/clara/">clara</a><small>2</small></li>
   
     <li><a href="/tags/covid19/">covid19</a><small>1</small></li>
+  
+    <li><a href="/tags/flutter/">flutter</a><small>1</small></li>
   
     <li><a href="/tags/format/">format</a><small>1</small></li>
   
@@ -432,6 +483,8 @@
   
     <li><a href="/tags/kotlin/">kotlin</a><small>1</small></li>
   
+    <li><a href="/tags/license/">license</a><small>1</small></li>
+  
     <li><a href="/tags/maple/">maple</a><small>1</small></li>
   
     <li><a href="/tags/onClickListener/">onClickListener</a><small>1</small></li>
@@ -439,6 +492,8 @@
     <li><a href="/tags/python/">python</a><small>1</small></li>
   
     <li><a href="/tags/setting/">setting</a><small>1</small></li>
+  
+    <li><a href="/tags/unknown/">unknown</a><small>1</small></li>
   
     <li><a href="/tags/weight/">weight</a><small>1</small></li>
   
